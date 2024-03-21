@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #363A3D;
+  width: 100vw;
+  height: 100vh;
+}
+
+:root {
+  --light-green: #B6F09C;
+  --nobleblack-800: #0D0F10;
+  --nobleblack-700: #1C1C1C;
+  --nobleblack-600: #1A1D21;
+  --nobleblack-400: #484848;
+  --greytext: #9B9C9E;
+  --bold: 700;
+  --semi-bold: 600;
+  --medium: 500;
+  --light: 400;
+  --heading: 1rem;
+  --subheading: 0.8rem;
+  --paragraph: 0.7rem;
+}

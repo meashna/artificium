@@ -1,0 +1,345 @@
+.sidenav {
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    border-radius: 15px;
+    background-color: #0D0F10;
+}
+
+.sidenavcontents {
+    display: grid;
+    /* grid-template-rows: 1fr 2fr 4.1fr 1fr; */
+    /* background-color: #D0302F; */
+    height: 97vh;
+}
+
+/* profile area start */
+.grouppro {
+    border-bottom: 0.1px solid #131619;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chartreuse; */
+}
+
+.groupprocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.groupproleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.groupproimg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.grouppronamecount {
+    margin: 0.6rem;
+}
+
+.groupproname {
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+.groupprocount {
+    font-size: 0.8rem;
+    color: #B6F09C;
+    font-weight: 400;
+}
+
+.groupproright {
+    margin: 0.5rem;
+}
+
+.sidenavicon {
+    color: #686B6E;
+    font-size: 1rem;
+    filter: drop-shadow(0px 4px 6px rgba(104, 107, 110, 0.16)) drop-shadow(0px 10px 15px rgba(104, 107, 110, 0.16));
+    cursor: pointer;
+}
+
+.sidenavicon__settings {
+    color: #000000;
+    font-size: 1rem;
+    filter: drop-shadow(0px 4px 6px rgba(104, 107, 110, 0.16)) drop-shadow(0px 10px 15px rgba(104, 107, 110, 0.16));
+}
+
+/* profile area end */
+
+/* general starts area  */
+
+.general {
+    /* background-color: blue; */
+}
+
+.generalarea {
+    margin: 0rem 0.5rem;
+}
+
+.generaltext {
+    color: #686B6E;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+}
+
+.generalcontents {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0.5rem 0;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.searchiconinput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
+.searchicon {
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    filter: drop-shadow(0px 4px 6px rgba(104, 107, 110, 0.16)) drop-shadow(0px 10px 15px rgba(104, 107, 110, 0.16));
+}
+
+.searchinput {
+    border: none;
+    outline: none;
+    /* background-color: #0D0F10; */
+    width: 3rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    background-color: var(--nobleblack-800);
+    font-size: var(--subheading);
+    color: #E8E9E9;
+    font-weight: var(--heading);
+}
+
+
+
+/* .searchstar {
+     margin: 0.5rem 0.5rem 0.5rem 0;
+ } */
+
+.commandkey {
+
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid var(--Glass-Stroke, rgba(255, 255, 255, 0.08));
+    background: var(--Glass-Fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05), 0px 1px 2px -1px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.commandkey:hover {
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.commandkeyicon {
+    color: var(--greytext);
+}
+
+.stext {
+    color: var(--greytext);
+}
+
+.billing {
+    display: flex;
+    cursor: pointer;
+}
+
+.billingicon {
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.billingtext,
+.searchtext {
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    font-size: 0.8rem;
+    color: #E8E9E9;
+    font-weight: 500;
+}
+
+
+
+
+/* gneral ends area */
+
+/* projects starts area */
+
+.projects {
+    border-top: 0.1px solid #131619;
+    /* background-color: darkgreen; */
+}
+
+.projectheading {
+    margin: 0.5rem 0rem 1.5rem 0.5rem;
+    color: #686B6E;
+    font-weight: 500;
+    font-size: 0.8rem;
+
+}
+
+.projectlist {
+    margin: 0.5rem;
+    border-radius: 8px;
+    border-top: 1px solid var(--Glass-Stroke, rgba(255, 255, 255, 0.08));
+    background: var(--Glass-Fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
+    cursor: pointer;
+}
+
+.projectlogoname {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.projectlogo {
+    margin: 0.5rem;
+    color: #B6F09C;
+    filter: drop-shadow(0px 4px 6px rgba(182, 240, 156, 0.16)) drop-shadow(0px 10px 15px rgba(182, 240, 156, 0.16));
+
+}
+
+.projectlogo__tri {
+    margin: 0.6rem;
+    color: #D0302F;
+    filter: drop-shadow(0px 4px 6px rgba(189, 59, 58, 0.16)) drop-shadow(0px 10px 15px rgba(189, 59, 58, 0.16));
+
+}
+
+.projectlogo__hex {
+    margin: 0.6rem;
+    color: #82DBF7;
+    filter: drop-shadow(0px 4px 6px rgba(130, 219, 247, 0.16)) drop-shadow(0px 10px 15px rgba(130, 219, 247, 0.16));
+
+}
+
+.projectlogo__sqr {
+    margin: 0.6rem;
+    color: #E26F20;
+    filter: drop-shadow(0px 4px 6px rgba(226, 111, 32, 0.16)) drop-shadow(0px 10px 15px rgba(226, 111, 32, 0.16));
+
+}
+
+.projectname {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 500;
+}
+
+.addlist {
+    margin: 0.5rem;
+    border-radius: 8px;
+    border-top: 1px solid var(--Glass-Stroke, rgba(255, 255, 255, 0.08));
+    background: var(--Glass-Fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
+}
+
+.addlogoname {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.addlogo {
+    margin: 0.6rem;
+    color: #686B6E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.addname {
+    font-size: 0.8rem;
+    color: #686B6E;
+    font-weight: 500;
+}
+
+
+/* projects ends area */
+/* personal-pro area starts  */
+
+.personalpro {
+    border-top: 0.1px solid #131619;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chocolate; */
+}
+
+.personalprocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%);
+    border-radius: 10px;
+    margin: 0rem 0.5rem;
+}
+
+.personalproleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3rem;
+}
+
+.personalproimg {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.personalpronamecount {
+    margin: 0.3rem;
+}
+
+.personalproname {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: var(--semi-bold);
+}
+
+.personalprocount {
+    font-size: 0.7rem;
+    color: var(--light-green);
+    font-weight: var(--medium);
+}
+
+.personalproright {
+    margin: 0.5rem;
+}
+
+.personalmore {
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: #686B6E;
+    cursor: pointer;
+}
+
+/* personal-pro area ends  */

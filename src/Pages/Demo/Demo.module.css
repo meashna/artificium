@@ -1,0 +1,15 @@
+.homemaincontainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1A1D21;
+    /* background-color: #2C2C2C; */
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 2fr 7fr 1fr;
+
+}

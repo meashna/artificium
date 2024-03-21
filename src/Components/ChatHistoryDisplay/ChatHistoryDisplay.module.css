@@ -1,0 +1,133 @@
+.display__container {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    grid-template-rows: 1fr auto;
+    border-radius: 16px;
+    border: 1px solid #686b6e4f;
+
+}
+
+.user__propic {
+    padding: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__pic {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+
+}
+
+.user__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 1rem 0.3rem 0;
+
+}
+
+.user__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.user__username {
+    margin-right: 0.5rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.user__status {
+    color: #686B6E;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.user__copybtn {
+    border-radius: 8px;
+    color: #686B6E
+}
+
+.user__text {
+    color: #9B9C9E;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-right: 1rem;
+}
+
+/* style for model */
+.display__container {
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    grid-template-rows: 1fr auto;
+    border-radius: 16px;
+    border: 1px solid #686b6e4f;
+}
+
+.model__propic {
+
+    padding: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model__pic {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+
+}
+
+.model__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 1rem 0.3rem 0;
+
+}
+
+.model__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.model__username {
+    margin-right: 0.5rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.model__status {
+    color: #686B6E;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.model__copybtn {
+    border-radius: 8px;
+    color: #686B6E
+}
+
+.model__text {
+    color: #9B9C9E;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-right: 1rem;
+}

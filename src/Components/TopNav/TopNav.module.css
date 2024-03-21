@@ -1,0 +1,209 @@
+/* only for single component */
+
+/* .homemaincontainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #363A3D;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 2fr 10fr 1fr;
+
+}*/
+
+/* topnav__top starts here */
+
+.topnav {
+    background-color: #0D0F10;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    border-radius: 15px;
+    padding: 1rem;
+
+}
+
+.topnav__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #131619;
+}
+
+.groupname {
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.groupdescp {
+    color: #9B9C9E;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.topnavright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -5%;
+}
+
+.sharelogo {
+    cursor: pointer;
+    color: #686B6E;
+    font-size: 1rem;
+
+}
+
+.sharelogo:hover {
+    color: #9B9C9E;
+}
+
+.sharetext:hover {
+    color: #9B9C9E;
+}
+
+.sharetext {
+    color: #686B6E;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.members {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    border-radius: 50%;
+    margin-left: -50%;
+
+}
+
+.edit {
+    background-color: #1A1D21;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.edit:hover {
+    background-color: #686B6E;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.editlogo {
+    color: #CDCECF;
+    font-size: 1rem;
+}
+
+/* topnav__top ends here */
+
+/* topnav__btm starts here */
+
+.topnav__btm {
+    padding: 0.5rem;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artificium {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.library {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artificiumlogo,
+.chatlogo,
+.librarylogo {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    color: #686B6E;
+    filter: drop-shadow(0px 4px 6px rgba(182, 240, 156, 0.16)) drop-shadow(0px 10px 15px rgba(182, 240, 156, 0.16));
+}
+
+.artificiumtext,
+.chatatext,
+.libaraytext {
+    font-size: 0.8rem;
+    font-weight: var(--nobleblack-600);
+    color: #9B9C9E;
+    cursor: pointer;
+}
+
+/* topnav__btm ends here */
+
+@media (max-width: 768px) {
+    .topnav {
+        margin: 0.5rem 0.5rem 0 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .groupdescp {
+
+        font-size: 0.6rem;
+    }
+
+
+    .share {
+        margin-right: -9%;
+    }
+
+
+    .members {
+        width: 1rem;
+        height: 1rem;
+        margin-left: -40%;
+    }
+
+    .edit {
+        padding: 0.3rem;
+    }
+
+    .edit:hover {
+        padding: 0.3rem;
+        border-radius: 5px;
+    }
+
+
+    /* topnav__top ends here */
+
+    /* topnav__btm starts here */
+
+
+    .artificiumlogo,
+    .chatlogo,
+    .librarylogo {
+        margin-right: 0.2rem;
+    }
+
+    .artificiumtext,
+    .chatatext,
+    .libaraytext {
+        margin-right: 1rem;
+    }
+}
