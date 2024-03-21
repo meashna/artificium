@@ -28,23 +28,23 @@ const CenterArea = () => {
                 <div className={styles.categoryhead}>Creative Assests</div>
 
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>UI wireframe</div>
                   <FaArrowRight className={styles.arrow} />
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Brochure design</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Social media</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Brand guidelines</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
@@ -55,27 +55,27 @@ const CenterArea = () => {
                 <div className={styles.categoryicon__code}>
                   <FaCode className={styles.code} />
                 </div>
-                <div className={styles.categoryhead}>Creative Assests</div>
+                <div className={styles.categoryhead}>Developer Tools</div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>API Integration</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Test automation</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>DB optimization</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Code review</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
@@ -86,27 +86,27 @@ const CenterArea = () => {
                 <div className={styles.categoryicon__pencil}>
                   <GoPencil className={styles.pencil} />
                 </div>
-                <div className={styles.categoryhead}>Creative Assests</div>
+                <div className={styles.categoryhead}>Content Creation</div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Product description</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>E-mail copy</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Whitepaper</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Press release</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
@@ -117,27 +117,27 @@ const CenterArea = () => {
                 <div className={styles.categoryicon__bulb}>
                   <SlBulb className={styles.bulb} />
                 </div>
-                <div className={styles.categoryhead}>Creative Assests</div>
+                <div className={styles.categoryhead}>Idea Generation</div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Hashtag ideas</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Brainstorming</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Trend analysisn</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
                 </div>
                 <div className={styles.subcategory1}>
-                  <div className={styles.categorytext}>Ui Design</div>
+                  <div className={styles.categorytext}>Social media posts</div>
                   <div className={styles.arrow}>
                     <FaArrowRight />
                   </div>
